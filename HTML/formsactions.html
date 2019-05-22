@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h3>Forms</h3>
+    <form action="http://www.facebook.com" method="get">
+      <p>Enter Text and take me to facebook:</p>
+      <input type="text" name="userinput" value="">
+      <input type="submit" name="" value="Submit">
+    </form>
+    <h3>Labels, input, and Placeholder</h3>
+    <form>
+      <label>
+        Enter text:
+        <input type="text" name="" value="block one">
+      </label>
+      <label>
+        Enter text:
+        <input type="text" name="" value="block two">
+      </label><!--THis is not the recommended way of doing since we write Enter text again and again-->
+      <label for="userinput">Enter Input:</label>
+      <input id="userinput" type="text" name="" placeholder="Enter email here">
+      <!--Here we are linking the user input to this label with the
+    help of "id" parameter in the input and "for" parameter in the label-->
+    </form>
+    <form>
+    <h3>required</h3>
+    <input type="text" name="" placeholder="Not required">
+    <input id="userinput" type="text" name="" placeholder="Required" required>
+    <input type="submit" name="" value="Submit">
+    </form>
+  </body>
+</html>
