@@ -1,0 +1,16 @@
+/*
+Size
+*/
+
+li{
+  color:red;
+}
+/* The class will have a higher priority */
+/* THis is called specificity */
+.topitems{
+  color: blue;
+}
+
+#two{
+  border: 3px solid black;
+}

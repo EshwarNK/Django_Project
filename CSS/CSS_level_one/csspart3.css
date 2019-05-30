@@ -1,0 +1,37 @@
+/*
+Borders
+ */
+
+.firstDiv{
+  color: blue;
+}
+.secondDiv{
+  color: red;
+}
+/* div{
+  color: yellow;
+}
+when you use div, it will be affected for all the div tags in the file. In orser
+to make only for a particular div tag. We use "." followed by <div class>. */
+/* we use "#" followed by id for classes */
+#singledout{
+  color: green;
+  text-decoration: line-through;
+}
+/* We use * to select every element in the file */
+/* *{
+  color: black;
+} */
+/* This selects any unordered list next to an html */
+h3+ul{
+  border: 4px dotted purple;
+}
+/* for all anchor tags inside a list */
+li a{
+  color: red;
+}
+/* for the href that is equal to the string */
+li a[href="www.npr.org"]{
+  color:blue;
+  border:5px solid orange;
+}

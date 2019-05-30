@@ -1,0 +1,35 @@
+/* https://coolors.co/browser/latest/ */
+#Spectrum{
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  margin: auto;
+  font-style: italic;
+}
+td{
+  /* background-color: black; */
+  height: 300px;
+  width: 150px;
+  /* border: 200px;
+  padding: 100px; */
+  border: 6px solid white;
+}
+.art{
+  margin:auto;
+  /* to bring the table cells to the centre */
+}
+#one{
+  background-color: #242F40;
+}
+#two{
+  background-color: #DCDCDD;
+}
+#three{
+  background-color: #C9AD5C;
+}
+#four{
+  background-color: #C5C3C6;
+}
+#five{
+  background-color: #1985A1;
+}

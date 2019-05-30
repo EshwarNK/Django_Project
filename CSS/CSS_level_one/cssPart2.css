@@ -1,0 +1,22 @@
+/*
+Colours and styling
+ */
+body{
+  background:gray;
+  /* background: url(https://www.shutterstock.com/image-illustration/night-scenery-man-rowing-boat-among-1016596177?src=RhOqP8sf0uJvBJYPX74_3w-1-1); */
+}
+div{
+  background: red;
+  border-color: blue;
+  /* border-width: thin; */
+  border-width: 10px;
+  border-style: double;
+}
+p{
+  color:yellow;
+}
+
+span{
+  background: :red;
+  color: black;
+}

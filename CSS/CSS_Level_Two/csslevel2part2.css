@@ -1,0 +1,16 @@
+/* Css Fonts
+www.cssfontstack.com
+This website gives you all the information regarding which
+styles are supported by which browser*/
+/* If you want, you can download these fonts and link it
+to you css files.
+https://fonts.google.com/
+https://fontlibrary.org/
+ */
+ h1{
+   font-family: "Arial";
+ }
+ /* Some fonts dont work on every OS. Depends on the font and usage */
+ p{
+   font-family: 'Righteous', cursive;
+ }

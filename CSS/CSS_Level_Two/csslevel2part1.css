@@ -1,0 +1,28 @@
+/* Fonts */
+h1{
+  font-family: "Arial";
+}
+/* Some fonts dont work on every OS. Depends on the font and usage */
+p{
+  font-family: monospace;
+}
+
+body{
+  font-size: 20px;
+}
+#two{
+  font-size: 1.0em;
+  /* 2.0em=2*20px=40px *
+  When to use em: When you have two elements and you want to
+  bring in a relation between the size of characters in first part
+  and that of the second part. Eg: you want to make the second part
+  half of the first part character size.....*/
+}
+p{
+  font-style: italic;
+  font-weight: 300;
+}
+
+h1{
+  text-align:center;
+}
